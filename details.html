@@ -1,0 +1,378 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>情報理工学部実験A・B：Webデータ記述　154758宮田大資</title>
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="main-title"><a class="link" href="../index.html"><span class="black">Webデータ記述基礎</span></a></h1>
+        <p class="sub-title">情報理工学部実験A･B</p>
+    </div>
+    <div class="main">
+        <div class="index">
+            <table class="menu">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="link top-page">
+                                <a href="index.html">トップページ</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="link relation-w3c">
+                                <a href="w3c.html">W3Cとの関係</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="link tool">
+                                <a href="tool.html">ツールについて</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="link experiment">
+                                <a href="experiment.html">アクセシビリティおよびバリデー
+                                    ションチェック</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="link thesis-page">
+                                <a href="../thesis.html">論文紹介</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="link consideration">
+                                <a href="consideration.html">考察とまとめ</a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="content">
+            <div class="topics">
+                <a href="details.html"><span class="topic">トップページ > 評価実験 > 詳細</span></a>
+            </div>
+            <div class="container">
+                <div class="main-container">
+                    <h1>評価実験</h1>
+                    <h2 class="main-content">詳細</h2>
+                    <div class="details">
+                        <h3>1. Apple</h3>
+                        <p>HTML</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>Bad value A for attribute B on element C: Illegal character in query: D is not allowed</td>
+                                    <td>タグCにおける属性Bの値Aが不正であるため、Aを変更する必要がある、query内の不正な文字Dは許可されていない。</td>
+                                </tr>
+                                <tr>
+                                    <td>Attribute A not allowed on element B at this point.</td>
+                                    <td>この時点では、属性AはタグBで許可されていない。他の属性か削除する必要がある。</td>
+                                </tr>
+                                <tr>
+                                    <td>Element A is missing one or more of the following attributes: B, C.</td>
+                                    <td>AタグにB,Cの属性がない。</td>
+                                </tr>
+                                <tr>
+                                    <td>Duplicate attribute A.</td>
+                                    <td>属性Aが重複している。</td>
+                                </tr>
+                                <tr>
+                                    <td>Bad value A for attribute B on element C.</td>
+                                    <td>タグCの属性Bで値Aは使えない。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>css</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>文法解析エラーが発生しました</td>
+                                    <td>文法に間違いがある。</td>
+                                </tr>
+                                <tr>
+                                    <td>プロパティ box-sizing は CSS レベル 2.1 に存在しませんが、[css3] に存在します : content-box content-box</td>
+                                    <td>バージョンを間違えている</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3>2. 任天堂</h3>
+                        <p>HTML</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>Attribute A not allowed on element B at this point.</td>
+                                    <td>タグBでは使えない属性Aを使っている。</td>
+                                </tr>
+                                <tr>
+                                    <td>Bad value A for attribute B on element C: Must be non-empty.</td>
+                                    <td>タグCの属性BのAの部分が記述されていない。</td>
+                                </tr>
+                                <tr>
+                                    <td>The A attribute on the B element is obsolete. Use CSS instead.</td>
+                                    <td>タグBのA属性は使えなくなったので、CSSで使うようにする。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>CSS</p>
+                        <p>　正当なCSS レベル2.1として検証された。</p>
+                        <h3>3. とほほのWWW入門</h3>
+                        <p>HTML</p>
+                        <p>　エラーは確認されなかった。</p>
+                        <p>css</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>文法解析エラーが発生しました</td>
+                                    <td>文法に間違いがある。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3>4. 京都産業大学</h3>
+                        <p>HTML</p>
+                        <p>　エラーは確認されなかった。</p>
+                        <p>css</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>文法解析エラーが発生しました</td>
+                                    <td>文法に間違いがある。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3>5. 京都大学</h3>
+                        <p>HTML</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>X-UA-Compatible HTTP header must have the value IE=edge, was IE=edge,chrome=1.</td>
+                                    <td>IE=edge,chrome=1 は IE=edge である必要がある。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>css</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>次のプロパティが正しくありません : font-style 1.2em は font-style で利用できる値ではありません : 1.2em</td>
+                                    <td>プロパティの部分を削除するか、正しいものに変える必要がある。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3>6. 慶應義塾大学</h3>
+                        <p>HTML</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>Attribute A not allowed here.</td>
+                                    <td>属性Aは他で使用するか、削除する必要がある。</td>
+                                </tr>
+                                <tr>
+                                    <td>The summary attribute on the table element is obsolete. Consider describing the structure of the table in a caption
+                                    element or in a figure element containing the table; or, simplify the structure of the table so that no description is
+                                    needed.</td>
+                                    <td>tableタグのsummary属性が廃止されたため、caption属性やfigure属性用いる。または、tableタグを単純化する必要がある。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>css</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>ファイルが見つかりません</td>
+                                    <td>ファイル指定している記述を削除する必要がある。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3>YouTube</h3>
+                        <p>HTML</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>When the srcset attribute has any image candidate string with a width descriptor, the sizes attribute must also be
+                                    present.</td>
+                                    <td>sizes属性をも存在する必要がある</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>css</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                
+                                <p>　エラーは確認されなかった。</p>
+                                
+                            </tbody>
+                        </table>
+                        <h3>8. 初心者のためのホームページの作り方[決定版]</h3>
+                        <p>HTML</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>Almost standards mode doctype. Expected(!DOCTYPE html).</td>
+                                    <td>!DOCTYPE html が宣言されていない。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>css</p>
+                        <p>　エラーは確認されなかった。</p>
+                        <h3>9. KDDI株式会社――Tomorrow, Together</h3>
+                        <p>HTML</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>Duplicate attribute lang.</td>
+                                    <td>属性langが重複している。</td>
+                                </tr>
+                                <tr>
+                                    <td>Element style not allowed as child of element div in this context. (Suppressing further errors from this subtree.)</td>
+                                    <td>divタグ内にstyleタグは記述できない。</td>
+                                </tr>
+                                <tr>
+                                    <td>Duplicate ID headerArea.</td>
+                                    <td>id名が重複している</td>
+                                </tr>
+                                <tr>
+                                    <td>No space between attributes.</td>
+                                    <td>属性間にスペースを用意されていない。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>css</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>次のプロパティが正しくありません</td>
+                                    <td>スペル間違いや値が不正である。</td>
+                                </tr>
+                                <tr>
+                                    <td>文法解析エラーが発生しました</td>
+                                    <td>文法に間違いがある。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3>10. 京セラ株式会社</h3>
+                        <p>HTML</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>The frameborder attribute on the iframe element is obsolete. Use CSS instead.</td>
+                                    <td>iframeタグ内のframeborder属性は廃止になったため、CSSで記述する必要がある</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>css</p>
+                        <table class="details-table" border="1">
+                            <tbody>
+                                <tr>
+                                    <th class="error">エラー</th>
+                                    <th class="cause">内容</th>
+                                </tr>
+                                <tr>
+                                    <td>次のプロパティが正しくありません</td>
+                                    <td>スペルに間違いがあるか、値が不正である。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="evidences">
+            <div class="evidence-css">
+                <p>
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                            src="https://jigsaw.w3.org/css-validator/images/vcss"
+                            alt="正当なCSSです!" />
+                    </a>
+                </p>
+                <p>
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                            alt="正当なCSSです!" />
+                    </a>
+                </p>
+            </div>
+        </div>
+        
+    <div class="footer">
+        <p class="copy-right"></p>
+        <p class="sign">
+            提出日: 2021/7/19 154758 宮田大資
+            (C) g2154758 Miyata Hiroshi, all right reserved</p>
+    </div>
+</body>
+</html>
